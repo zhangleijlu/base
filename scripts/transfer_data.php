@@ -41,7 +41,9 @@ function img_upload($old_url = ''){
     $ext = $path_parts['extension'];
     $img = './image_tmp/flower.'.$ext;
     file_put_contents($img, file_get_contents($old_url));
-    $shell = "/usr/bin/curl  --compressed  -fsSL --stderr - -H \"Authorization: Bearer 20a353aa591e9029e92ca7d49515e81fce3677fb\" https://api.imgur.com/3/image";
+    $title = "test";
+    $shell = "curl --compressed  -fsSL --stderr - -F 'title=${title}' -F 'image=@\"./a.png\"'  -H \"Authorization: Bearer 20a353aa591e9029e92ca7d49515e81fce3677fb\" https://api.imgur.com/3/image";
+    echo $shell;
     $ret = shell_exec($shell); var_dump($ret);
     //exec();
   /**  $ch = curl_init();
