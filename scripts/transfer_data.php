@@ -6,11 +6,17 @@
  * Time: 下午4:01
  */
 $old_mysqli = new mysqli("localhost","root","root", "content_ori");
+$old_mysqli->query("set names utf8");
 $sql = "select * from `content_ori_201804_newlife101` WHERE  `transfer_status` = 0";
+
 $ret = $old_mysqli->query($sql);
 while ($arr = $ret->fetch_assoc()){
     $ori_content = $arr['content'];
-    $cn_content = shell_exec("echo $ori_content| opencc -c zht2zhs.ini");
+    file_put_contents("./tmp1.txt", $ori_content);
+   // shell_exec("echo 123");
+    exec(" opencc -i ./tmp1.txt  -o ./tmp2.txt -c zht2zhs.ini", $output );
+    //var_dump($output);
+    $cn_content = file_get_contents("./tmp2.txt");
     $no_img_content = img_transfer($cn_content);
 }
 
@@ -23,12 +29,21 @@ function img_transfer($cn_content){
             $img_urls = $match[1];
         }
     }
-    var_dump($img_urls); die();
+    foreach ($img_urls as $img_url){
+        $new_url = img_upload($img_url);
+    }
+ //   var_dump($img_urls); die();
 
 }
 
 function img_upload($old_url = ''){
-
+    $path_parts = pathinfo($old_url);
+    $ext = $path_parts['extension'];
+    $img = './image_tmp/flower.'.$ext;
+    file_put_contents($img, file_get_contents($old_url));
+    $shell = "/usr/bin/curl  --compressed  -fsSL --stderr - -H \"Authorization: Bearer 20a353aa591e9029e92ca7d49515e81fce3677fb\" https://api.imgur.com/3/image";
+    $ret = shell_exec($shell); var_dump($ret);
+    //exec();
   /**  $ch = curl_init();
     $data = array('title' => 'Foo', 'file' => '@/mnt/hgfs/data_app/base/a.png');
     curl_setopt($ch, CURLOPT_URL, 'https://api.imgur.com/3/image');
@@ -47,7 +62,7 @@ function img_upload($old_url = ''){
 /**
  * curl --compressed  -fsSL --stderr - -F "title=${title}" -F "image=@\"/root/base/a.png\""  -H "Authorization: Bearer 20a353aa591e9029e92ca7d49515e81fce3677fb" https://api.imgur.com/3/image
  */
-img_upload();
+//img_upload();
 
 
 ?>
