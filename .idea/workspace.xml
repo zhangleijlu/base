@@ -2,6 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5df5d70-a09b-4c48-aef3-8f87425e5f2f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/get_slug.php" />
+      <change beforePath="$PROJECT_DIR$/.env.example" afterPath="$PROJECT_DIR$/.env.example" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/base.iml" afterPath="$PROJECT_DIR$/.idea/base.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/a.png" afterPath="$PROJECT_DIR$/a.png" />
+      <change beforePath="$PROJECT_DIR$/douyasi/Models/ArticleDate.php" afterPath="$PROJECT_DIR$/douyasi/Models/ArticleDate.php" />
+      <change beforePath="$PROJECT_DIR$/douyasi/Models/ArticlesUser.php" afterPath="$PROJECT_DIR$/douyasi/Models/ArticlesUser.php" />
+      <change beforePath="$PROJECT_DIR$/douyasi/Models/BaseModel.php" afterPath="$PROJECT_DIR$/douyasi/Models/BaseModel.php" />
+      <change beforePath="$PROJECT_DIR$/douyasi/Models/Users.php" afterPath="$PROJECT_DIR$/douyasi/Models/Users.php" />
+      <change beforePath="$PROJECT_DIR$/resources/views/desktop/user.blade.php" afterPath="$PROJECT_DIR$/resources/views/desktop/user.blade.php" />
+      <change beforePath="$PROJECT_DIR$/scripts/add_table.php" afterPath="$PROJECT_DIR$/scripts/add_table.php" />
+      <change beforePath="$PROJECT_DIR$/scripts/api1.php" afterPath="$PROJECT_DIR$/scripts/api1.php" />
+      <change beforePath="$PROJECT_DIR$/scripts/api2.php" afterPath="$PROJECT_DIR$/scripts/api2.php" />
+      <change beforePath="$PROJECT_DIR$/scripts/api3.php" afterPath="$PROJECT_DIR$/scripts/api3.php" />
       <change beforePath="$PROJECT_DIR$/scripts/transfer_data.php" afterPath="$PROJECT_DIR$/scripts/transfer_data.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,66 +35,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Desktop/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="37" />
-              <folding>
-                <element signature="e#48#76#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="transfer_data.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/transfer_data.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="255">
+              <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="34" />
               <folding>
-                <marker date="1524817713249" expanded="true" signature="169:243" ph="select * fro... content_ori_201804_newlife101" />
+                <marker date="1526194441875" expanded="true" signature="207:281" ph="select * fro... content_ori_201804_newlife101" />
+                <marker date="1526194441875" expanded="true" signature="1825:1877" ph="select * fro... mirr_ori_new_art" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticlesUser.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/douyasi/Models/ArticlesUser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="29" column="64" lean-forward="false" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/douyasi/Models/Category.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2235">
-              <caret line="158" column="59" lean-forward="false" selection-start-line="158" selection-start-column="59" selection-end-line="158" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticleDate.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/douyasi/Models/ArticleDate.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="48" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -93,8 +61,8 @@
       <find>HomeCont</find>
       <find>orderBy</find>
       <find>new_slug_url</find>
-      <find>Home</find>
       <find>getCategory</find>
+      <find>Home</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -112,7 +80,6 @@
         <option value="$PROJECT_DIR$/scripts/api2.php" />
         <option value="$PROJECT_DIR$/douyasi/Cache/DataCache.php" />
         <option value="$PROJECT_DIR$/scripts/add_table.php" />
-        <option value="$PROJECT_DIR$/douyasi/Models/ArticleDate.php" />
         <option value="$PROJECT_DIR$/resources/views/desktop/index.blade.php" />
         <option value="$PROJECT_DIR$/douyasi/Models/ArticleSlug.php" />
         <option value="$PROJECT_DIR$/douyasi/Models/Article.php" />
@@ -123,6 +90,8 @@
         <option value="$PROJECT_DIR$/douyasi/Models/Users.php" />
         <option value="$PROJECT_DIR$/douyasi/Models/ArticlesUser.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Desktop/HomeController.php" />
+        <option value="$PROJECT_DIR$/scripts/get_slug.php" />
+        <option value="$PROJECT_DIR$/douyasi/Models/ArticleDate.php" />
         <option value="$PROJECT_DIR$/scripts/transfer_data.php" />
       </list>
     </option>
@@ -212,7 +181,7 @@
       <path value="$PROJECT_DIR$/vendor/predis/predis" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1440" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
@@ -232,6 +201,37 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="base" type="cbb8eebc:String" user="base" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="base" type="cbb8eebc:String" user="base" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="base" type="cbb8eebc:String" user="base" />
+              <item name="scripts" type="cbb8eebc:String" user="scripts" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="base" type="cbb8eebc:String" user="base" />
+              <item name="tests" type="cbb8eebc:String" user="tests" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="base" type="cbb8eebc:String" user="base" />
+              <item name="vendor" type="cbb8eebc:String" user="vendor" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -249,22 +249,6 @@
               <item name="base" type="b2602c69:ProjectViewProjectNode" />
               <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="base" type="cbb8eebc:String" user="base" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="base" type="cbb8eebc:String" user="base" />
-              <item name="scripts" type="cbb8eebc:String" user="scripts" />
             </path>
           </expand>
           <select />
@@ -333,19 +317,26 @@
       <workItem from="1524489395503" duration="2992000" />
       <workItem from="1524629427522" duration="965000" />
       <workItem from="1524727463907" duration="6172000" />
-      <workItem from="1524813280474" duration="2671000" />
+      <workItem from="1524813280474" duration="18283000" />
+      <workItem from="1525168300881" duration="8478000" />
+      <workItem from="1525393198297" duration="2896000" />
+      <workItem from="1526038672105" duration="528000" />
+      <workItem from="1526093777334" duration="1389000" />
+      <workItem from="1526136453847" duration="6406000" />
+      <workItem from="1526727043173" duration="1269000" />
+      <workItem from="1526871642928" duration="1672000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134956000" />
+    <option name="totallyTimeSpent" value="173206000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18051118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19595315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -361,7 +352,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4427793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -397,13 +388,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/douyasi/Models/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/douyasi/Models/BaseModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -429,9 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-          <folding>
-            <element signature="e#48#76#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,9 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="37" />
-          <folding>
-            <element signature="e#48#76#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -670,25 +648,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/douyasi/Models/ArticleSlug.php" />
-    <entry file="file://$PROJECT_DIR$/douyasi/Models/ArticleDate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/desktop/detail.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="92" lean-forward="false" selection-start-line="10" selection-start-column="92" selection-end-line="10" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="679" column="35" lean-forward="false" selection-start-line="679" selection-start-column="35" selection-end-line="679" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -720,19 +683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/douyasi/Models/Category.php">
+    <entry file="file://$PROJECT_DIR$/app/helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2235">
-          <caret line="158" column="59" lean-forward="false" selection-start-line="158" selection-start-column="59" selection-end-line="158" selection-end-column="59" />
-          <folding />
+        <state relative-caret-position="635">
+          <caret line="672" column="40" lean-forward="false" selection-start-line="672" selection-start-column="32" selection-end-line="672" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -740,26 +694,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="29" column="64" lean-forward="false" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="64" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douyasi/Models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="905">
+          <caret line="158" column="59" lean-forward="false" selection-start-line="158" selection-start-column="59" selection-end-line="158" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/douyasi/Models/ArticleDate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/get_slug.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="51" />
+          <folding>
+            <marker date="1525169934459" expanded="true" signature="208:271" ph="select * fro... content_ori_201804_newlife101" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Desktop/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="37" />
-          <folding>
-            <element signature="e#48#76#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/transfer_data.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="255">
+          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="34" />
           <folding>
-            <marker date="1524817713249" expanded="true" signature="169:243" ph="select * fro... content_ori_201804_newlife101" />
+            <marker date="1526194441875" expanded="true" signature="207:281" ph="select * fro... content_ori_201804_newlife101" />
+            <marker date="1526194441875" expanded="true" signature="1825:1877" ph="select * fro... mirr_ori_new_art" />
           </folding>
         </state>
       </provider>

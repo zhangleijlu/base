@@ -8,6 +8,7 @@
 namespace Douyasi\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Redis;
 
 /**
  * 内容模型
@@ -17,6 +18,7 @@ class ArticleDate extends Model
     protected $table = 'articles_';
 
     protected $primaryKey = 'id';
+    protected $index_table = "INDEZ_TABLE_NAME";
 
     protected $fillable = [
         'title',
@@ -27,6 +29,7 @@ class ArticleDate extends Model
 
     public function setTable($date)
     {
+        $key = Redis::get($this->index_table);var_dump($key);die();
         $this->table = $this->table."$date";
 
         return $this;
